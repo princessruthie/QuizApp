@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="welcome_message">Welcome to the Quiz~~</string>
+    <string name="question_one">Q1. Udacity is udacious.</string>
+    <string name="truef">True</string>
+    <string name="tfalse">False</string>
+    <string name="question_two">Q2. Who are our teachers in this course?</string>
+    <string name="kunal">Kunal</string>
+    <string name="katherine">Katherine</string>
+    <string name="rupaul">Ru Paul</string>
+    <string name="question_three">Q3. What\'s the animal
+    that rhymes with and wears a hat?  (lowercase please)</string>
+    <string name="question_four">Q4. YOLO?</string>
+    <string name="yes">Yes.</string>
+    <string name="no_yolo">No.</string>
+    <string name="finish">Finish</string>
+    <string name="summary">There were four
+        questions.  You got this many right: </string>
+    <string name="cat">cat</string>
+
+</resources>
