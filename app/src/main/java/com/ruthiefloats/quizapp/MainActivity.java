@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -82,7 +83,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void onFinish(View view) {
         calculateScore();
-        TextView summary = (TextView) findViewById(R.id.summary);
-        summary.setText(getString(R.string.summary) + " " + score + ".");
+Toast.makeText(this, getString(R.string.summary) + " " + score + ".", Toast.LENGTH_LONG).show();
     }
 }
