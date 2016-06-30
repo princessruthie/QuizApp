@@ -83,6 +83,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void onFinish(View view) {
         calculateScore();
-Toast.makeText(this, getString(R.string.summary) + " " + score + ".", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, getString(R.string.summary) + " " + score + ".", Toast.LENGTH_LONG).show();
     }
 }
