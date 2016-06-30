@@ -6,7 +6,6 @@
             android:fillViewport="true"
             tools:context="com.ruthiefloats.quizapp.MainActivity">
 
-
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -88,7 +87,6 @@
 
         <TextView
             android:layout_width="wrap_content"
-
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
             android:text="@string/question_four"

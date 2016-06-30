@@ -71,13 +71,14 @@ public class MainActivity extends AppCompatActivity {
         EditText q3Answer = (EditText) findViewById(R.id.editText);
         String q3Text = q3Answer.getText().toString();
         String compare = getString(R.string.cat);
-        isQ3Right = q3Text.equals(compare);
+        isQ3Right = q3Text.equalsIgnoreCase(compare);
     }
 
     private void checkQ2() {
-        isQ2Right = false;
         if (isQ2Katherine & isQ2Kunal & !isQ2RuPaul) {
             isQ2Right = true;
+        } else{
+            isQ2Right = false;
         }
     }
 
