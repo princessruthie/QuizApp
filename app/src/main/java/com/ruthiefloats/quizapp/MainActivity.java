@@ -84,6 +84,5 @@ public class MainActivity extends AppCompatActivity {
         calculateScore();
         TextView summary = (TextView) findViewById(R.id.summary);
         summary.setText(getString(R.string.summary) + " " + score + ".");
-        summary.setVisibility(View.VISIBLE);
     }
 }
